@@ -1,4 +1,4 @@
-ENV["RAKE_ENV"] ||= "production"
+ENV["RAKE_ENV"] ||= "development"
 
 require "bundler/setup"
 Bundler.require(:default, ENV["RAKE_ENV"])
